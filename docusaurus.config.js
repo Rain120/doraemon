@@ -8,12 +8,13 @@ const presets = require('./presets');
 const navbar = require('./navbar');
 
 const baseUrl = process.env.BASE_URL || '/';
+console.log('baseUrl', baseUrl)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Docusaurus Doc Template',
   tagline: 'Dinosaurs are cool',
-  url: 'https://rain120.github.io/docusaurus-doc-template',
+  url: 'https://rain120.github.io/docusaurus-doc-template/',
   baseUrl,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
