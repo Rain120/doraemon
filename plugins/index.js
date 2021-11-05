@@ -32,14 +32,19 @@ const plugins = pluginContentDocsConfigList.map(pluginOptions => ([
 	'@docusaurus/plugin-content-docs',
 	pluginOptions,
 ])).filter(Boolean).concat([
+	'@docusaurus/plugin-google-gtag',
+	[
+		'@docusaurus/plugin-pwa',
+		{}
+	],
 	[
 		require.resolve("@easyops-cn/docusaurus-search-local"),
-		{
-			// language: ["en", "zh"],
-			hashed: true,
-			docsRouteBasePath: docDirKeys,
-			docsDir: docDirKeys,
-		},
+		// {
+		// 	// language: ["en", "zh"],
+		// 	hashed: true,
+		// 	docsRouteBasePath: docDirKeys,
+		// 	docsDir: docDirKeys,
+		// },
 	],
 ]);
 
