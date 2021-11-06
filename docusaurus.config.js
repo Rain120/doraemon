@@ -28,10 +28,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      gtag: {
-        trackingID: '',
-        // anonymizeIP: true, // 是否匿名化 IP？
-      },
+      // gtag: {
+      //   trackingID: '',
+      //   anonymizeIP: true, // 是否匿名化 IP？
+      // },
       navbar: {
         title: 'Docusaurus Doc Template',
         logo: {
