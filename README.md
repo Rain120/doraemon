@@ -1,33 +1,58 @@
-# Website
+# Docusaurus Docs Template
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<div align="center">
 
-### Installation
+[![GitHub watchers](https://img.shields.io/github/watchers/rain120/docusaurus-docs-template?style=social)](https://github.com/Rain120/docusaurus-docs-template/watchers)
+[![STAR](https://img.shields.io/github/stars/rain120/docusaurus-docs-template?style=social)](https://github.com/Rain120/docusaurus-docs-template/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/docusaurus-docs-template?style=social)](https://github.com/Rain120/docusaurus-docs-template/network/members)
 
+[![COMMIT](https://img.shields.io/github/last-commit/rain120/docusaurus-docs-template?style=flat-square)](https://github.com/Rain120/docusaurus-docs-template/commits/master)
+
+</div>
+
+## 😚 Welcome
+
+Welcome to the Docusaurus Docs Template
+
+## 🎮 TL;DR
+
+⌨️ To be Continue...
+
+## ✍ Why am I doing this?
+
+Easy to write documents for someone.
+
+## 🔨 Usage
+
+```sh
+git clone git@github.com:Rain120/docusaurus-docs-template.git
+
+yarn install # or npm install
 ```
-$ yarn
-```
 
-### Local Development
+## 🤝 Contributing
 
-```
-$ yarn start
-```
+![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/docusaurus-docs-template/pulls) or as a GitHub [issue](https://github.com/Rain120/docusaurus-docs-template/issues).
 
-### Build
+## 🔗 Links
 
-```
-$ yarn build
-```
+- [Demo](https://rain120.github.io/docusaurus-docs-template)
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 👨‍🏭 Author
 
-### Deployment
+> Front-End development engineer, technology stack: React + Typescript + Mobx, also used Vue + Vuex for a while
 
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+- [Github](https://github.com/Rain120)
+- [知乎](https://www.zhihu.com/people/yan-yang-nian-hua-120/activities)
+- [掘金](https://juejin.im/user/57c616496be3ff00584f54db)
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 📝 License
+
+[MIT](https://github.com/Rain120/docusaurus-docs-template/blob/master/LICENSE)
+
+Copyright © 2021-present [Rain120](https://github.com/Rain120).
+
+## ☕ Coffee or Tea
+
+![wechat-zhifubao-pay.png](./wechat-zhifubao-pay.png)
