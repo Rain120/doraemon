@@ -3,7 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const plugins = require('./plugins');
+const { plugins } = require('./plugins');
 const presets = require('./presets');
 const navbar = require('./navbar');
 
@@ -22,8 +22,8 @@ const config = {
   organizationName: 'Rain120', // Usually your GitHub org/user name.
   projectName: 'docusaurus-doc-template', // Usually your repo name.
 
-  plugins,
   presets,
+  plugins,
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

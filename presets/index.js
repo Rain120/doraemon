@@ -8,10 +8,11 @@ const docDirs = [
 const presetClassicConfigList = {};
 
 docDirs.forEach(({ key, options }) => {
+	// 只能给doc
 	presetClassicConfigList[key] = {
 		sidebarPath: require.resolve(`../sidebars/${key}.js`),
 		// Please change this to your repo.
-		editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+		editUrl: 'https://github.com/Rain120/docusaurus-doc-template/edit/main',
 	}
 });
 
