@@ -99,6 +99,13 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
+      liveCodeBlock: {
+        /**
+         * 实时效果显示的位置，可位于编辑器上方或下方。
+         * 可为："top" | "bottom"
+         */
+        playgroundPosition: 'bottom',
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

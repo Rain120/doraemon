@@ -32,6 +32,22 @@ const docDirs = [
 			],
 		},
 	},
+	{
+		key: 'code',
+		sidebarKey: 'docs',
+		options: {
+			exclude: [
+				"code/**/*.tsx"
+			]
+		},
+		navbar: {
+			to: '/code/intro',
+			docId: 'intro',
+			// position: 'left',
+			label: 'CodeBlock',
+			activeBaseRegex: '/code/',
+		}
+	},
 ];
 
 const docDirKeys = docDirs.map(({ key }) => key);
@@ -67,7 +83,9 @@ const plugins = pluginContentDocsConfigList.map(pluginOptions => ([
 		require.resolve('@docusaurus/plugin-pwa'), {
 			debug: true,
 		}
-	]
+	],
+	// https://docusaurus.io/zh-CN/docs/api/themes/@docusaurus/theme-live-codeblock
+	'@docusaurus/theme-live-codeblock'
 ]);
 
 module.exports = {

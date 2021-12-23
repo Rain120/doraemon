@@ -1,0 +1,29 @@
+# 导入原始代码
+
+:::tip
+导入原始代码 Demo
+:::
+
+import Profile from '@site/src/components/Profile';
+
+<Profile
+    name={'Rain120'}
+    avatar={'https://avatars.githubusercontent.com/u/20939839?v=4'}
+    github={'https://github.com/rain120'}
+    nickName={'Chao'}
+    intro={`
+        Hi, I'm Rain120, 一名从 18 年 北漂 至今的菜鸡前端, 技术栈是 React + Mobx, 正在积极学习 Typescript, 生活组成就是出门练习练习摄影, 试图捡起篮球以及
+        折腾并学习那些不会的前端知识 (PS: 学不动了要 😭😭) , 并且会将学习心得和笔记记录下 study-notes上, 除此之外, 还会实践一些个人感兴趣的小东西, 虽然流产率比较高, 但还是比较喜欢折腾这些, 有喜欢折腾的可以一起啊。
+    `}
+/>
+
+import CodeBlock from '@theme/CodeBlock';
+import ProfileCode from '!!raw-loader!@site/src/components/Profile';
+import StyleCode from '!!raw-loader!@site/src/components/Profile/style.module.css';
+
+<CodeBlock
+    className={'language-tsx'}
+    title={'src/components/Profile'}
+>
+    {ProfileCode}
+</CodeBlock>
