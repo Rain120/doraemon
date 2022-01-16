@@ -7,7 +7,7 @@ sidebar_position: 1
 ## 启动开发环境
 
 ```shell
-cd docusaurus-doc-template
+cd doraemon
 
 npx docusaurus start
 ```
@@ -60,7 +60,7 @@ jobs:
         run: |
           ...
           # 然后，需要将👇🏻这个修改你的仓库名
-          BASE_URL=/docusaurus-doc-template/ npm run build
+          BASE_URL=/doraemon/ npm run build
 ```
 
 ### GitHub 配置

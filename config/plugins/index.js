@@ -6,48 +6,42 @@ const commonPluginContentDocs = {
 
 const docDirs = [
 	{
-		key: 'fe',
+		key: 'demo',
 		sidebarKey: 'docs',
 		options: {},
-		// https://docusaurus.io/docs/api/themes/configuration#navbar
-		// navbar: {
-		// 	to: '/fe/intro',
-		// 	docId: 'intro',
-		// 	// position: 'left',
-		// 	label: '前端',
-		// 	activeBaseRegex: '/fe/',
-		// },
-		// https://docusaurus.io/docs/api/themes/configuration#navbar-dropdown
 		navbar: {
             type: 'dropdown',
-            label: 'Alls',
+            label: 'Demo',
             position: 'right',
             items: [
 				{
-					to: '/fe/intro',
+					to: '/demo/intro',
 					docId: 'intro',
-					label: '前端',
-					activeBaseRegex: '/fe/',
+					label: 'Code',
+					activeBaseRegex: '/demo/',
+				},
+				{
+					to: '/tools/intro',
+					docId: 'intro',
+					label: '小工具',
+					activeBaseRegex: '/tools/',
 				}
 			],
 		},
 	},
 	{
-		key: 'code',
+		key: 'tools',
 		sidebarKey: 'docs',
-		options: {
-			exclude: [
-				"code/**/*.tsx"
-			]
-		},
+		options: {},
+		// https://docusaurus.io/docs/api/themes/configuration#navbar
 		navbar: {
-			to: '/code/intro',
+			to: '/tools/intro',
 			docId: 'intro',
-			// position: 'left',
-			label: 'CodeBlock',
-			activeBaseRegex: '/code/',
-		}
-	},
+			position: 'right',
+			label: '小工具',
+			activeBaseRegex: '/tools/',
+		},
+	}
 ];
 
 const docDirKeys = docDirs.map(({ key }) => key);
@@ -59,7 +53,7 @@ const pluginContentDocsConfigList = docDirs.map(({ key, options, sidebarKey }) =
 		path: key,
 		routeBasePath: key,
 		// editUrl: ({ locale, versionDocsDirPath, docPath }) => {
-		// 	return `https://github.com/rain120/docusaurus-doc-template`;
+		// 	return `https://github.com/rain120/doraemon`;
 		// },
 		sidebarPath: require.resolve(`../sidebars/${sidebarKey}.js`),
 		...commonPluginContentDocs,

@@ -21,7 +21,7 @@ jobs:
             npm install
           fi
 
-          BASE_URL=/docusaurus-doc-template/ npm run build
+          BASE_URL=/doraemon/ npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5

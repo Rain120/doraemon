@@ -12,7 +12,7 @@ docDirs.forEach(({ key, options }) => {
 	presetClassicConfigList[key] = {
 		sidebarPath: require.resolve(`../sidebars/${key}.js`),
 		// Please change this to your repo.
-		editUrl: 'https://github.com/Rain120/docusaurus-doc-template/edit/main',
+		editUrl: 'https://github.com/Rain120/doraemon/edit/main',
 	}
 });
 
@@ -26,10 +26,10 @@ const presets = [
 				showReadingTime: true,
 				// Please change this to your repo.
 				editUrl:
-					'https://github.com/rain120/docusaurus-doc-template/edit/main/blog/',
+					'https://github.com/rain120/doraemon/edit/main/blog/',
 			},
 			theme: {
-				customCss: require.resolve('../src/css/custom.css'),
+				customCss: require.resolve('../../src/css/custom.css'),
 			},
 		}),
 	],

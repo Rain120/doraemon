@@ -3,24 +3,24 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const { plugins } = require('./plugins');
-const presets = require('./presets');
-const navbar = require('./navbar');
+const { plugins } = require('./config/plugins');
+const presets = require('./config/presets');
+const navbar = require('./config/navbar');
 
 const baseUrl = process.env.BASE_URL || '/';
 console.log('baseUrl', baseUrl)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus Doc Template',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://rain120.github.io/docusaurus-doc-template/',
+  title: 'Doraemon',
+  tagline: 'lalala, doraemon 😊',
+  url: 'https://rain120.github.io/doraemon/',
   baseUrl,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Rain120', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-doc-template', // Usually your repo name.
+  projectName: 'doraemon', // Usually your repo name.
 
   presets,
   plugins,
@@ -33,9 +33,9 @@ const config = {
       //   anonymizeIP: true, // 是否匿名化 IP？
       // },
       navbar: {
-        title: 'Docusaurus Doc Template',
+        title: 'Doraemon',
         logo: {
-          alt: 'Docusaurus Doc Template',
+          alt: 'Doraemon',
           src: 'img/logo.svg',
         },
         items: [
@@ -48,7 +48,7 @@ const config = {
           ...navbar,
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/rain120/docusaurus-doc-template',
+            href: 'https://github.com/rain120/doraemon',
             label: 'GitHub',
             position: 'right',
           },
@@ -92,7 +92,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/rain120/docusaurus-doc-template',
+                href: 'https://github.com/rain120/doraemon',
               },
             ],
           },
