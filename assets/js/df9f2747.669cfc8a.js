@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoraemon=self.webpackChunkdoraemon||[]).push([[516],{9967:function(e){e.exports=JSON.parse('{"permalink":"/doraemon/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

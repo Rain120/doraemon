@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoraemon=self.webpackChunkdoraemon||[]).push([[225],{2981:function(a){a.exports=JSON.parse('{"allTagsPath":"/doraemon/blog/tags","slug":"/doraemon/blog/tags/\u4e2a\u4eba\u7b80\u4ecb","name":"\u4e2a\u4eba\u7b80\u4ecb","count":1,"permalink":"/doraemon/blog/tags/\u4e2a\u4eba\u7b80\u4ecb"}')}}]);
