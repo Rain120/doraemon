@@ -42,6 +42,8 @@
     "@docusaurus/preset-classic": "^2.0.0-beta.14",
     "@docusaurus/theme-live-codeblock": "^2.0.0-beta.14",
     "@easyops-cn/docusaurus-search-local": "^0.19.1",
+    "@tinyfe/color-keywords": "^0.0.9",
+    "@tinyfe/colors": "^0.0.9",
     "nodejieba": "^2.5.2",
     "raw-loader": "^4.0.2"
   }
