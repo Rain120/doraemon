@@ -1,17 +1,17 @@
-# Docusaurus Docs Template
+# Doraemon
 
 <div align="center">
 
-[![GitHub watchers](https://img.shields.io/github/watchers/rain120/docusaurus-docs-template?style=social)](https://github.com/Rain120/docusaurus-docs-template/watchers)
-[![STAR](https://img.shields.io/github/stars/rain120/docusaurus-docs-template?style=social)](https://github.com/Rain120/docusaurus-docs-template/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/docusaurus-docs-template?style=social)](https://github.com/Rain120/docusaurus-docs-template/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/rain120/doraemon?style=social)](https://github.com/Rain120/doraemon/watchers)
+[![STAR](https://img.shields.io/github/stars/rain120/doraemon?style=social)](https://github.com/Rain120/doraemon/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/doraemon?style=social)](https://github.com/Rain120/doraemon/network/members)
 
-[![COMMIT](https://img.shields.io/github/last-commit/rain120/docusaurus-docs-template?style=flat-square)](https://github.com/Rain120/docusaurus-docs-template/commits/master)
+[![COMMIT](https://img.shields.io/github/last-commit/rain120/doraemon?style=flat-square)](https://github.com/Rain120/doraemon/commits/master)
 
 </div>
 
 ## 😚 Welcome
 
-Welcome to the Docusaurus Docs Template
+Welcome to the Doraemon
 
 ## 🎮 TL;DR
 
@@ -24,7 +24,7 @@ Easy to write documents for someone.
 ## 🔨 Usage
 
 ```sh
-git clone git@github.com:Rain120/docusaurus-docs-template.git
+git clone git@github.com:Rain120/doraemon.git
 
 yarn install # or npm install
 ```
@@ -33,11 +33,11 @@ yarn install # or npm install
 
 ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
-We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/docusaurus-docs-template/pulls) or as a GitHub [issue](https://github.com/Rain120/docusaurus-docs-template/issues).
+We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/doraemon/pulls) or as a GitHub [issue](https://github.com/Rain120/doraemon/issues).
 
 ## 🔗 Links
 
-- [Demo](https://rain120.github.io/docusaurus-docs-template)
+- [Demo](https://rain120.github.io/doraemon)
 
 ## 👨‍🏭 Author
 
@@ -49,7 +49,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 ## 📝 License
 
-[MIT](https://github.com/Rain120/docusaurus-docs-template/blob/master/LICENSE)
+[MIT](https://github.com/Rain120/doraemon/blob/master/LICENSE)
 
 Copyright © 2021-present [Rain120](https://github.com/Rain120).
 
